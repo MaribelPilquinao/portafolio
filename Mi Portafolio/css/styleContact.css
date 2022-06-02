@@ -1,0 +1,61 @@
+/* .circulo-gris{
+    border: 1px solid black;
+    width: 25rem;
+    height: 25rem;
+} */
+.contacto{
+    /* border: 1px solid green; */
+    display: inline-block;
+    font-size: 2rem;
+    color: #286f6b;
+    margin-left: 15rem;
+    margin-top: 10rem;
+}
+.circulo-3{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 30rem;
+    background-color: #28686b41;
+    display: inline-flex;
+    position: absolute;
+    margin-left: -4rem;
+}
+.container__circulos-oranges{
+    border: 1px solid red;
+    display: inline-flex;
+    margin-left: 30rem;
+    margin-top: 15rem;
+    
+}
+
+
+.circulo__small-1{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 10rem;
+    background-color: #f26440;
+}
+.circulo__small-2{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 10rem;
+    background-color: #f26440;
+}
+.caja__info{
+    border: 1px solid greenyellow;
+    text-align: center;
+}
+.caja__info h3{
+    color: #286f6b;
+    font-size: 1rem;
+}
+.caja__info p{
+    color: #969392;
+    font-size: .8rem;
+}
+
+.container__final{
+    border: 1px solid maroon;
+    /* display: inline; */
+}
+

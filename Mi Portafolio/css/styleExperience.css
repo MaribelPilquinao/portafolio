@@ -1,0 +1,63 @@
+
+.container-icons{
+    /* border: 1px solid darkred; */
+    display: flex;
+    padding-left: 13rem;
+    height: 15rem;
+    /* position: relative; */
+
+}
+.title4{
+    font-size: 2.5rem;
+    color: #286f6b;
+    margin-left: 15rem;
+}
+ .text-año{
+     /* border: 1px solid purple; */
+    display: inline-flex; 
+    margin-left: 17rem;
+} 
+
+.txt{
+    /* border: 1px solid red; */
+    display: inline-block;
+    position: relative;
+    margin-left: 8rem;
+    margin-top: -9rem;
+}
+.txt0{
+    margin-left: 7rem;
+    margin-top: -6rem;
+
+}
+.txt1{
+    margin-left: 6rem;
+    margin-top: -5rem;
+}
+.txt2{
+    margin-left: 7rem;
+    margin-top: -6rem;
+}
+.text-año1{
+    margin-left: 15rem;
+    margin-top: -3rem;
+    margin-right: 1rem;
+}
+.text-año2{
+    margin-left: 15rem;
+    margin-top: -3rem;
+    margin-right: 1rem;
+}
+.text-año3{
+    margin-left: 15rem;
+    margin-top: -4rem;
+}
+.parrafo-exp{
+    margin: 0;  
+}
+.exp-p{
+    font-size: .8rem;
+    color: #969392;
+}
+
+
