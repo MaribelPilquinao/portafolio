@@ -1,0 +1,342 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+html{
+    box-sizing: border-box;
+}
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+.hidden{
+    display: none;  
+}
+.navbar-home{
+    text-align: right;
+    background-color: #fef2f2;  
+    padding-top: 1rem;   
+}
+#nav li{
+    padding: 10px 5px;
+    text-align: center;
+}
+.boton-1{
+    background-color: transparent;
+    border-style: none;
+}
+.navbar-home ul{
+    background-color: #dff564d2;
+    width: auto;
+    right: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    z-index: 999;    
+}
+
+.home {
+    text-decoration: none;
+    margin-right: 3rem;
+    color: black;
+    width: 100%;
+}
+
+.color-home {
+    color: #286f6b;
+    font-weight: 900;
+    margin: 2rem;
+}
+
+.home-info {
+    background-color: #fef2f2;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+}
+    
+
+.txt__social{
+    margin-top: -1rem;
+}
+.title1 {
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 600;
+ }
+
+.social-icons {
+    display: initial;
+    margin-right: 8rem;
+    margin-bottom: 1rem;  
+}
+
+.img-social {
+    background-color: #f26440;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 3rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: inherit;
+
+}
+.img-propia{
+    max-width: 100%;
+    max-height: 100%;
+}
+.foto-propia {  
+    margin-top: -20rem;
+    margin-left: 6rem;
+    width: 20rem;
+    height: 25rem;
+}
+    
+.circulo-1 {
+  background-color: #286f6b;
+  display: flex;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 20rem;
+  top: -1%;        
+}
+
+
+.p-relative {
+    position: relative;
+}
+
+.circulo-1 {
+    position: absolute;
+    right: -5%;
+}
+
+.foto-propia img {
+    position: relative;
+}
+
+/* ACERCA DE MÍ */
+
+.acerca-deMi {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    color: #286f6b;
+}
+
+.text-acerca-deMi {
+    text-align: justify;
+}
+
+.container {
+    grid-column: 2;
+    height: 15rem;
+    margin: 2rem;
+}
+
+.title2 {
+    color: #286f6b;
+    font-size: 2rem;
+}
+
+.parrafo-1 {
+    color: #969392;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+.home-info {
+    display: inline-block;
+}
+.txt__social{
+   margin-top: 2rem;
+}
+.title1 {
+   padding-top: 1rem;
+   font-size: 4rem;
+}
+.img-social{
+   display: flex;
+   margin: inherit;
+
+}
+.social-icons{
+    display: initial;
+    margin-left: 4rem;
+}
+.foto-propia {  
+     margin-top: -18rem;
+     margin-left: 9rem;
+}
+     
+.circulo-1 {
+   background-color: #286f6b;
+   display: flex;
+   width: 19rem;
+   height: 19rem;
+   border-radius: 20rem;
+   top: -5%; 
+   right: 1%;       
+}         
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+.navbar-home{
+    margin-right: .5rem;
+    width: 100%;
+}
+.navbar-home ul{
+    background-color: transparent;
+}
+.home{
+    margin-right: 1rem;
+    width: 100%;
+}
+     
+#nav li{
+    display: inline-block;
+}
+#nav{
+    display: block;
+}
+button{
+    display: none;
+}
+.home-info {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 30% auto 10%;
+    grid-template-rows: 40% 20% 40%;
+    height: 29rem;
+}
+
+.txt__social{
+    grid-column: 1/ span 2;
+    margin-top: 2rem;
+}
+.foto-propia{
+    grid-column: 3/span 2;
+    grid-row: 3;
+    top:38%;
+    left: -20%;
+}
+
+.social-icons {
+    grid-column: 1/span 3;
+    display: inline-flex;
+    margin: 0;
+    margin-left: 2rem;
+    margin-top: 1rem;
+
+}
+ 
+.circulo-1 {
+    top: 2%;
+}
+/* ACERCA DE MÍ */
+.title2__acerca-deMi{
+    font-size: 2rem;
+    color: #286f6b;
+}
+.acerca-deMi {
+    grid-template-columns: 5% 90%;
+    margin-left: -1.5rem;
+}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+.navbar-home{
+    margin-right: 0;
+}
+.navbar-home ul{
+    background-color: transparent;
+}
+#nav li{
+    display: inline-block;
+}
+#nav{
+    display: block;
+}
+button{
+    display: none;
+}
+}
+.home-info {
+    grid-template-columns: 10% 30% auto 10%;
+    grid-template-rows: 40% 20% 40%;
+    width: 100%;
+ }
+
+ .title1 {
+    margin-left: 4rem;
+ }
+ .circulo-1 {
+    left: 20%;
+}
+.social-icons {
+    grid-column: 1/span 3;
+    grid-row: 2/span 2;
+    padding-top: 12%;
+    /* margin-left: 6rem; */
+ 
+}
+
+/* ACERCA DE MÍ */
+
+.acerca-deMi {
+    grid-template-columns: 10% 80%;
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   #nav li{
+       display: inline-block;
+   }
+   #nav{
+       display: block;
+   }
+   button{
+       display: none;
+   }
+.foto-propia{
+    grid-column: 3;
+}
+   .txt__social{
+    grid-column: 1;
+    margin-top: 3rem;
+    margin-left: 5rem;
+ }
+ .social-icons {
+    margin-left: 4rem;
+
+}
+
+/* ACERCA DE MÍ */
+
+.acerca-deMi {
+    grid-template-columns: 10% 80%;
+    margin-left: 1rem;
+}
+.title2__acerca-deMi{
+    color:#286f6b;
+}
+
+}
+
+@media (min-width: 1300px) {
+    .txt__social{
+        margin-top: 7rem;
+        margin-left: 4rem;
+     }  
+    
+}
