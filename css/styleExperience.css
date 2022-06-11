@@ -13,6 +13,18 @@
     justify-items:center;
     margin-bottom: 8rem;
 }
+.img__academlo-1{
+    width: 100%;
+    height: 100%;
+}
+.img__academlo{
+    width: 4rem;
+    height: 4rem;
+}
+.descripcion-amazon h3{
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
 
 .flex{
     grid-column: 1/span 3;

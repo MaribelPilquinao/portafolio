@@ -105,7 +105,8 @@ html{
   width: 15rem;
   height: 15rem;
   border-radius: 20rem;
-  top: -1%;        
+  top: 20%;  
+  left: 12%;      
 }
 
 
@@ -181,8 +182,8 @@ html{
    width: 19rem;
    height: 19rem;
    border-radius: 20rem;
-   top: -5%; 
-   right: 1%;       
+   top: 0%; 
+   left: 16%;       
 }         
 }
 
@@ -239,7 +240,7 @@ button{
 }
  
 .circulo-1 {
-    top: 2%;
+    top: 10%;
 }
 /* ACERCA DE MÍ */
 .title2__acerca-deMi{
