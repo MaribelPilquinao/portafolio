@@ -9,6 +9,8 @@
     grid-column: 1/span 2;
     grid-row: 2;
     margin-left: 3rem;
+    position: relative;
+    top: 10%;
 }
 .circulo-3{
     width: 17rem;
@@ -26,6 +28,8 @@
     display: inline-flex;
     grid-row: 3;
     margin-left: 2rem; 
+    position: relative;
+    top: 10%;
 }
 
 .circulo__small-1, .circulo__small-2{
