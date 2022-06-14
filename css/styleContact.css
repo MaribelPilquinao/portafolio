@@ -10,7 +10,7 @@
     grid-row: 2;
     margin-left: 3rem;
     position: relative;
-    top: 10%;
+    top: -22rem;
 }
 .circulo-3{
     width: 17rem;
@@ -29,7 +29,7 @@
     grid-row: 3;
     margin-left: 2rem; 
     position: relative;
-    top: 10%;
+    top: -20rem;
 }
 
 .circulo__small-1, .circulo__small-2{
@@ -120,7 +120,8 @@
 @media (min-width: 768px){
 
 .contacto{
-    margin-left: 4rem;       
+    margin-left: 4rem; 
+    top: -26rem;      
 }
 .circulo-3{
     width: 20rem;
@@ -134,7 +135,8 @@
 }
 @media (min-width: 992px){
     .contacto{
-        margin-left: 8rem;       
+        margin-left: 8rem;
+        top: -32rem;       
     }
     .circulo-3{
         width: 25rem;
@@ -144,5 +146,6 @@
     .container__circulos-oranges{ 
         margin-left: 4rem;  
         gap: 25%;
+        top: -26rem;
     }
 }
