@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portafolio Maribel</title>
     <link rel="stylesheet" href="./css/styleMenu.css">
     <link rel="stylesheet" href="./css/styleHabilidad.css">
     <link rel="stylesheet" href="./css/styleExperience.css">
     <link rel="stylesheet" href="./css/stylePortafolio.css">
     <link rel="stylesheet" href="./css/styleContact.css">
     <link rel="stylesheet" href="./css/styles-relative.css">
+    <link rel="stylesheet" href="./css/styleApp.css">
+    <link rel="stylesheet" href="./css/acercaDeMi.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +25,8 @@
 </head>
 
 <body>
-    <nav class="navbar-home">
+<div class="navbar-home">
+    <nav >
         <button class="boton-1" onclick="toggleMenu()"><img src="./images/menu 1.svg" alt=""></button>
         <ul id="nav" class="hidden">
             <li>
@@ -46,31 +49,45 @@
             </li>
         </ul>
     </nav>
-    <div class="home-info">
-        <div class="txt__social">
-            <h1 class="title1">Maribel Pilquinao</h1>
-        </div>
-        <div class="social-icons">
-            <div class="img-social"><img src="./images/linkedin.svg" alt=""></div>
-            <div class="img-social"><img src="./images/instagram.svg" alt=""></div>
-            <div class="img-social"><img src="./images/twiter.svg" alt=""></div>
-        </div>
+</div>
 
-        <div class="foto-propia p-relative">
-            <div class="circulo-1"></div>
-            <img class="img-propia" src="./images/foto1-removebg.png" alt="">
+    <div class="container-home">
+        <div class="social-icons">
+            <div class="txt__social"><h1 class="title1">Maribel Alejandra Pilquinao</h1></div>
+            <div class="img-social" >
+            <a href="https://www.linkedin.com/in/maribel-pilquinao/" target="blank">
+                <img class="x-style" src="./images/link.png" alt="LinkedIn">
+            </a>
+            </div>
+            <div class="img-social">
+                <a href="https://github.com/MaribelPilquinao" target="_blank">
+                    <img class="x-style" src="./images/git3.png" alt=""></a>
+            </div>
+            <div class="img-social">
+                <a href="https://x.com/Maribel_alej" target="_blank">
+                    <img class="x-style1" src="./images/x7.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="container-circulo">
+            <div class="circulo">
+                <img class="img-propia" src="./images/foto2.png" alt="">
+            </div>
         </div>
     </div>
     <div class="acerca-deMi">
         <div class="container">
             <div class="text-acerca-deMi">
                 <h2 id="a__de-mi" class="title2__acerca-deMi">Acerca de mí</h2>
-                <P class="parrafo-1">Preparándome para elaborar sistemas informáticos. Actualmente realizando un
-                    Curso de Desarrollo Web Full-Stack
-                    y Ciencias de la Computación en Academlo. </P>
+                <P>Profesional de la tecnología que se caracteriza por la combinación de habilidades técnicas y de gestión.
+                     Experiencia en el diseño e implementación de soluciones de seguridad de la información, garantizando la protección de los activos
+                     digitales de la organización. Conocimientos en desarrollo de software y en la realización de auditorías de seguridad.
+                     Experiencia en el seguimiento de proyectos y en la elaboración de procedimientos operativos estándar.
+                     Me gusta, en mis tiempos libres, andar en bicicleta y dibujar además de compartir con las personas que son cercanas a mí.  </P>
             </div>
         </div>
     </div>
+    
 
     <div class="container-habilidades">
         <div class="circulos">
@@ -79,32 +96,72 @@
         </div>
         <div class=" hab-text">
             <div class="title3-habilidades">
-                <h2 id="mis__habilidades" class="title3"><span class="mis">Mis</span>habilidades</h2>
+                <h2 id="mis__habilidades" class="title3">Mis habilidades</h2>
             </div>
-            <div class="hab-cajas">
-                <div class="row cards">
-                    <div class="col-4 card">
-                        <div class="hab-1">
-                            <h2 class="title-hab"> <span>💡</span> HTML</h2>
-                            <p class="parrafo-hab">Maquetar un sitio usando HTML.</p>
-                        </div>
-                    </div>
-                    <div class="col-4 card">
-                        <div class="hab-2">
-                            <h2 class="title-hab"><span>📏</span> CSS</h2>
-                            <p class="parrafo-hab">Hacer atractivo un sitio web de HTML con CSS</p>
-                        </div>
-                    </div>
-                    <div class="col-4 card">
-                        <div class="hab-3">
-                            <h2 class="title-hab"><span>📱</span> Javascript</h2>
-                            <p class="parrafo-hab">Programar para crear soluciones a problemas.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="carousel">
+                <ul>
+                  <li>
+                    <div class="card">
+                        <h2><img src="./images/js.png" alt=""> Javascript</h2>
+                        <p>Conocimiento en Javascript desarrollando proyectos con este lenguaje de programación </p>
+                      </div>
+                  </li>
+                  <li>
+                    <div class="card">
+                        <h2><img src="./images/node.png" alt=""> Node</h2>
+                        <p>Conocimiento en Javascript desarrollando proyectos con este lenguaje de programación </p>
+                      </div>
+                  </li>
+                  <li>
+                    <div class="card">
+                        <h2><img src="./images/react.png" alt=""> React js</h2>
+                        <p>Conocimiento en Javascript desarrollando proyectos con este lenguaje de programación </p>
+                      </div>
+                  </li>
+                  <li>
+                    <div class="card">
+                        <h2><img src="./images/posgrest.png" alt=""> Posgressql</h2>
+                        <p>Conocimiento en Javascript desarrollando proyectos con este lenguaje de programación </p>
+                      </div>
+                  </li>
+                  <li>
+                    <div class="card">
+                        <h2><img src="./images/angular.png" alt="">Angular</h2>
+                        <p>Conocimiento en Javascript desarrollando proyectos con este lenguaje de programación </p>
+                      </div>
+                  </li>
+                  <li>
+                    <div class="card">
+                        <h2><img src="./images/aws.png" alt=""> AWS</h2>
+                        <p>Conocimiento en Javascript desarrollando proyectos con este lenguaje de programación </p>
+                      </div>
+                  </li>
+                  <li>
+                    <div class="card">
+                        <h2><img src="./images/iso.png" alt=""> ISO 27001</h2>
+                        <p>Conocimiento en Javascript desarrollando proyectos con este lenguaje de programación </p>
+                      </div>
+                  </li>
+                  <li>
+                    <div class="card">
+                        <h2><img src="./images/jp.png" alt=""> Jefe de Proyectos</h2>
+                        <p>Conocimiento en Javascript desarrollando proyectos con este lenguaje de programación </p>
+                      </div>
+                  </li>
+                  <li>
+                    <div class="card">
+                        <h2><img src="./images/qa.png" alt="">Control de calidad</h2>
+                        <p>Conocimiento en Javascript desarrollando proyectos con este lenguaje de programación </p>
+                      </div>
+                  </li>
+                  </ul>
+                
+              </div>
+              <button class="prev"> <img src="./images/mayor.png" alt=""> </button>
+                <button class="next"> <img src="./images/menor.png" alt=""> </button>
         </div>
     </div>
+
     <div class="container-experience ">
         <div class="title-exp">
             <h2 id="experiencia" class="title4">Experiencia</h2>
@@ -194,11 +251,7 @@
             </div>
         </div>
     </div>
-    <div class="container__final">
-        <p>Hecho con</p>
-        <div class="heart">
-        </div>
-        <p>en Academlo</p>
+   
     </div>
 
     <script src="./script.js"></script>

@@ -1,0 +1,35 @@
+.container {
+    grid-column: 2;
+    height: 20rem;
+    margin: 2rem;
+}
+.acerca-deMi {
+    transform: translateY(20px);
+    opacity: 0;
+    transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
+    color: #286f6b;
+}
+
+.acerca-deMi:not(.visible) {
+    transform: translateY(20px);
+    opacity: 0;
+}
+
+.acerca-deMi.visible {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.text-acerca-deMi {
+    text-align: justify;
+    line-height: 2;
+}
+
+.title2__acerca-deMi {
+    color: #558b70;
+    font-size: 1.7rem;
+}
+
+.text-acerca-deMi p {
+    color: #969392;
+}
