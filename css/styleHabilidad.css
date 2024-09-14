@@ -37,7 +37,7 @@
 }
 
 .title3 {
-    color: #558b70;
+    color: #286f6b;
     position: relative;
     right: 17.5rem;
     font-size: 1.7rem;
@@ -87,9 +87,14 @@
     max-width: 300px;
     text-align: justify;
 }
+.card h2{
+    color: #045a2f;
+    font-size: 1.2em;
+}
 
 .card img {
     width: 2rem;
+    margin-right: 1rem;
 }
 button.prev,
 button.next {

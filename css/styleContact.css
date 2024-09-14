@@ -4,32 +4,33 @@
     grid-template-rows: 20% 20% 10%;
 }
 .contacto{
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: #286f6b;
     grid-column: 1/span 2;
-    grid-row: 2;
+    grid-row: 1;
     margin-left: 3rem;
     position: relative;
-    top: -22rem;
+
 }
 .circulo-3{
     width: 17rem;
     height: 17rem;
     border-radius: 20rem;
     background-color: #28686b41;
-    margin-top: 16rem;
-    margin-left: -6rem;
+    margin-top: -11rem;
+    margin-left: -8rem;
   
 }
 .container__circulos-oranges{
-    grid-column: 1/span 2;
-    justify-items: left;
+    grid-column: 1 / span 2;
+    justify-content: center;
+    align-items: center;
     gap: 10%;
-    display: inline-flex;
-    grid-row: 3;
-    margin-left: 2rem; 
+    display: flex;
+    grid-row: 2;
+    margin-left: 0;
     position: relative;
-    top: -20rem;
+    top: 0;
 }
 
 .circulo__small-1, .circulo__small-2{
@@ -52,100 +53,5 @@
     color: #969392;
     font-size: .8rem;
 }
-/* DIV ACADEMLO */
 
-.container__final{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    gap: 1rem;
-    color: #f26440;
-    font-weight: 700; 
-    margin: auto;
-}
-.heart{
-    width: 15px;
-    height: 15px;
-    transform: rotate(45deg);
-    background: #f26440;
-    margin-top: 1rem;
 
-}
-.heart:before,
-.heart:after {
-  content: "";
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background: #f26440;
-}
-.heart {
-    width: 15px;
-    height: 15px;
-    transform: rotate(45deg);
-    background: #f26440;
-    top: 10rem;
-    left: 10rem;
-  }
-  
-  .heart:before,
-  .heart:after {
-    content: "";
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background: #f26440;
-    position: absolute;
-  }
-  
-  .heart:before {
-    top: 0;
-    left: -10px;
-  }
-  
-  .heart:after {
-    top: -10px;
-  }
-
-  /* MEDIA QUERIES */
-
-  /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px){
-.container__circulos-oranges{
-    justify-content: center;
-}
-}
-
-  /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px){
-
-.contacto{
-    margin-left: 4rem; 
-    top: -26rem;      
-}
-.circulo-3{
-    width: 20rem;
-    height: 20rem;
-    margin-top: 17rem;      
-}
-.container__circulos-oranges{   
-    gap: 20%;
-}
-    
-}
-@media (min-width: 992px){
-    .contacto{
-        margin-left: 8rem;
-        top: -32rem;       
-    }
-    .circulo-3{
-        width: 25rem;
-        height: 25rem;
-        margin-top: 18rem;      
-    }
-    .container__circulos-oranges{ 
-        margin-left: 4rem;  
-        gap: 25%;
-        top: -26rem;
-    }
-}
