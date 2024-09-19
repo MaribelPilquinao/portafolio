@@ -3,7 +3,7 @@ function toggleMenu() {
     nav.classList.toggle('hidden');
 }
 
-//efecto de las palabras 
+//efecto de las palabras
 document.querySelector('.acerca-deMi').classList.add('visible');
 document.querySelector('.title1').classList.add('visible');
 

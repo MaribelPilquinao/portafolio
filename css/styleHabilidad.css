@@ -102,7 +102,7 @@ button.next {
     top: 170%;
     transform: translateY(-50%);
     background-color: transparent;
-    color: rgb(245, 125, 5); /* Color del texto */
+    color: rgb(245, 125, 5);
     border: none;
     cursor: pointer;
     font-size: 10px;
@@ -111,11 +111,11 @@ button.next {
 }
 
 button.prev {
-    left: 350px; /* Posición a la izquierda */
+    left: 350px;
 }
 
 button.next {
-    right: 100px; /* Posición a la derecha */
+    right: 100px;
 }
 
 .prev img {
@@ -124,4 +124,93 @@ button.next {
 
 .next img {
     width: 2rem;
+}
+
+@media ( min-width: 360px){
+    .circulo-2{
+        margin-left: -13rem;
+    }
+    .circulo-orange{
+        left: -4%;
+        width: 6rem;
+        height: 6rem;
+    }
+    .title3{
+        right: 6rem;
+        top: 4rem;
+    }
+    .carousel{
+        width: 45vw;
+        top: 3rem;
+    }
+    .card{
+        max-width: 150px;
+    }
+    button.next{
+        top: 238%;
+        left: 18rem;
+    }
+    button.prev{
+        top: 238%;
+        left: 3rem;
+    }
+    
+}
+
+@media ( min-width: 720px ) {
+    .title3{
+        right: 12.5rem;
+        top: 0rem;
+    }
+    .carousel{
+        width: 45vw;
+        right: 2rem;
+    }
+    button.next{
+        top: 83%;
+        left: 30rem;
+    }
+    button.prev{
+        top: 83%;
+        left: 6rem;
+    }
+    .card{
+        max-width: 300px;
+    }
+    
+
+}
+
+@media (min-width: 992px){
+    .title3{
+        right: 12.5rem;
+        top: 0rem;
+    }
+    .circulo-2{
+        margin-left: -11rem;
+    }
+    .circulo-orange{
+        left: -10%;
+        width: 8rem;
+        height: 8rem;
+    }
+    .title3{
+        right: 22rem;
+        top: 2rem;
+    }
+    .carousel{
+        width: 45vw;
+        top: 3rem;
+    }
+    .card{
+        max-width: 250px;
+    }
+    button.next{
+        top: 166%;
+        left: 60rem;
+    }
+    button.prev{
+        top: 166%;
+        left: 18rem;
+    }
 }

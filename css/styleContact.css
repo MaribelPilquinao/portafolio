@@ -54,4 +54,67 @@
     font-size: .8rem;
 }
 
+@media ( min-width: 360px ){
+    .circulo__small-1, .circulo__small-2 {
+        width: 3rem;
+        height: 3rem;
+    }
+    .circulo__small-1 img, .circulo__small-2 img{
+        width: 2rem;
+        height: 2rem;
+    }
+    .container-contacto{
+    align-content: center;
+    justify-content: start;
+    align-items: start;
+    justify-items: start;
+    width: 25rem;
+    }
+    .contacto{
+        top: -3rem;
+    }
+    .container__circulos-oranges{
+        left: 4rem;
+        align-items: center;
+    }
+    .circulo-3{
+        margin-left: -10rem;
+        margin-top: -13rem;
+    }
+}
 
+@media (min-width: 720px) {
+    .container__circulos-oranges{
+        left: 14rem;
+    }
+}
+
+@media (min-width: 992px){
+    .circulo__small-1, .circulo__small-2{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 10rem;
+        background-color: #f26440;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .circulo__small-1 img, .circulo__small-2 img{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .container__circulos-oranges{
+        grid-column: 1 / span 2;
+        justify-content: center;
+        align-items: center;
+        gap: 15rem;
+        display: flex;
+        grid-row: 2;
+        margin-left: 0;
+        position: relative;
+        top: 0;
+        left: 30rem;
+    }
+}

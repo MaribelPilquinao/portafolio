@@ -6,15 +6,13 @@
 #nav li {
     padding: 10px 5px;
     text-align: center;
+    text-decoration: none;
+    list-style: none;
 }
 .narvar-home {
     height: 1rem;
 }
-/* estilo de menu */
-.hidden a {
-    text-decoration: none;
-    color: #286f6b;
-}
+
 .boton-1 {
     background-color: transparent;
     border-style: none;
@@ -64,11 +62,13 @@
 
     #nav li {
         display: inline-block;
+        text-decoration: none;
+        list-style: none;
     }
     #nav {
         display: block;
     }
-.boton-1 {
+    .boton-1 {
         display: none;
     }
 
@@ -77,16 +77,14 @@
         .navbar-home {
             margin-right: 0;
         }
-        .navbar-home ul {
-            background-color: transparent;
-        }
         #nav li {
             display: inline-block;
+            text-decoration: none;
         }
         #nav {
             display: block;
         }
-      .boton-1 {
+        .boton-1 {
             display: none;
         }
     }
@@ -95,11 +93,12 @@
     @media (min-width: 1200px) {
         #nav li {
             display: inline-block;
+            text-decoration: none;
         }
         #nav {
             display: block;
         }
-    .boton-1 {
+        .boton-1 {
             display: none;
         }
     }

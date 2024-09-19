@@ -63,3 +63,26 @@
     font-size: medium;
     font-weight: 400;
 }
+
+@media (min-width: 360px) {
+    .video-container-all {
+        flex-direction: column;
+        margin: 2rem;
+        height: 68rem;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (min-width: 720px) {
+    .video-container-all {
+        margin: 3rem;
+    }
+}
+
+@media (min-width: 992px){
+    .video-container-all {
+        flex-direction: row;
+        height: 22rem;
+    }
+}

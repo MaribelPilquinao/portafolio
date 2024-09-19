@@ -33,3 +33,17 @@
 .text-acerca-deMi p {
     color: #969392;
 }
+
+@media ( min-width: 360px ){
+    .acerca-deMi{
+        height: 36rem;
+    }
+}
+@media ( min-width: 720px ){
+    .acerca-deMi{
+        height: 20rem;
+    }
+    .text-acerca-deMi {
+       padding: 1rem;
+    }
+}
